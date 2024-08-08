@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;  /* General text color */
+}
+
+/* Header styles */
+header {
+    background-color: #00509e; /* Dark blue header background */
+    color: #fff; /* White text for the header */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #f4a261; /* Accent color for the header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;  /* White text for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4a261;  /* Hover color for navigation links */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e0f7fa;  /* Light background color for hero section */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #00509e; /* Dark blue for the sub-header */
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;  /* General text color */
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #00509e; /* Dark blue for sub-headings */
+}
+
+.info p {
+    color: #333;  /* General text color */
+}
+
+.info-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Gear item styles */
+.gear-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gear-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.gear-item p {
+    margin: 0;
+    color: #333;  /* General text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #00509e; /* Dark blue footer background */
+    color: #fff; /* White text for the footer */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stats-chart {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
