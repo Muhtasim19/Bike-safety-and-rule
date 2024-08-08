@@ -9,7 +9,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #00509e; /* Dark blue header background */
+    background-color: #13649e; /* Dark blue header background */
     color: #fff; /* White text for the header */
     padding: 20px 0;
     text-align: center;
@@ -20,9 +20,19 @@ header h1 {
     margin: 0;
     font-size: 2em;
     letter-spacing: 1px;
+    color: #fff; /* White text for the header title */
+}
+
+header h1 span {
+    color: #ffffff; /* Dark blue color for the "Bike Safety" part */
 }
 
 /* Navigation styles */
+nav {
+    background-color: #c2ce65; /* Light green background for the navigation */
+    padding: 30px 0;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -36,14 +46,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;  /* White text for navigation links */
+    color: #000000;  /* Dark blue text for navigation links */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #f4a261;  /* Hover color for navigation links */
+    color: #ffffff;  /* Dark grey hover color for navigation links */
 }
 
 /* Main content styles */
@@ -122,7 +132,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #00509e; /* Dark blue footer background */
+    background-color: #060607; /* Dark blue footer background */
     color: #fff; /* White text for the footer */
     text-align: center;
     padding: 10px 0;
@@ -174,4 +184,8 @@ footer {
     height: auto;
     margin-top: 20px;
     border-radius: 8px;
+}
+
+body {
+    cursor: url('https://cdn-icons-png.freepik.com/512/632/632443.png'), auto;
 }
